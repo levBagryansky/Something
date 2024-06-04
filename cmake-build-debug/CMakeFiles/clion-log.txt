@@ -1,0 +1,46 @@
+/home/tardis3/.local/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/231/bin/ninja/linux/ninja -G Ninja -S /home/tardis3/Something -B /home/tardis3/Something/cmake-build-debug
+-- Performing Test _faligned_new
+-- Performing Test _faligned_new - Success
+-- Performing Test _fbracket_depth_4096
+-- Performing Test _fbracket_depth_4096 - Failed
+-- Performing Test _fcf_protection_none
+-- Performing Test _fcf_protection_none - Success
+-- Performing Test _mno_cet
+-- Performing Test _mno_cet - Failed
+-- Performing Test _Qunused_arguments
+-- Performing Test _Qunused_arguments - Failed
+-- Performing Test _Wno_bool_operation
+-- Performing Test _Wno_bool_operation - Success
+-- Performing Test _Wno_tautological_bitwise_compare
+-- Performing Test _Wno_tautological_bitwise_compare - Success
+-- Performing Test _Wno_parentheses_equality
+-- Performing Test _Wno_parentheses_equality - Success
+-- Performing Test _Wno_sign_compare
+-- Performing Test _Wno_sign_compare - Success
+-- Performing Test _Wno_uninitialized
+-- Performing Test _Wno_uninitialized - Success
+-- Performing Test _Wno_unused_but_set_variable
+-- Performing Test _Wno_unused_but_set_variable - Success
+-- Performing Test _Wno_unused_parameter
+-- Performing Test _Wno_unused_parameter - Success
+-- Performing Test _Wno_unused_variable
+-- Performing Test _Wno_unused_variable - Success
+-- Performing Test _Wno_shadow
+-- Performing Test _Wno_shadow - Success
+-- Performing Test _mt
+-- Performing Test _mt - Failed
+-- Performing Test _pthread
+-- Performing Test _pthread - Success
+-- Performing Test _lpthread
+-- Performing Test _lpthread - Success
+-- Performing Test _latomic
+-- Performing Test _latomic - Success
+-- Executing Verilator...
+-- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Executing Verilator...
+-- Configuring done (8.2s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/tardis3/Something/cmake-build-debug

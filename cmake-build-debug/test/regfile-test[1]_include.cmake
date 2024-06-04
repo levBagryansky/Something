@@ -1,0 +1,5 @@
+if(EXISTS "/home/tardis3/Something/cmake-build-debug/test/regfile-test[1]_tests.cmake")
+  include("/home/tardis3/Something/cmake-build-debug/test/regfile-test[1]_tests.cmake")
+else()
+  add_test(regfile-test_NOT_BUILT regfile-test_NOT_BUILT)
+endif()
