@@ -1,1 +1,0 @@
-/usr/bin/verilator_bin;--compiler;gcc;--prefix;Vregfile;--Mdir;/home/tardis3/Something/cmake-build-debug/test/CMakeFiles/regfile-test.dir/Vregfile.dir;--make;cmake;--cc;--trace;/home/tardis3/Something/src/regfile.v

@@ -4,12 +4,11 @@ project(Something)
 
 find_package(verilator)
 
-set(CMAKE_EXE_LINKER_FLAGS )
+set(CMAKE_EXE_LINKER_FLAGS)
 add_executable(Something src/main.cpp)
 verilate(Something SOURCES src/regfile.v VERILATOR_ARGS --trace)
 
 include(FetchContent)
-
 FetchContent_Declare(
         googletest
         GIT_REPOSITORY https://github.com/google/googletest.git
